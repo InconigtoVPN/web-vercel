@@ -7,14 +7,14 @@ export async function GET() {
     const settings = await getSettings()
 
     // Ubah PIN
-    settings.ownerPin = "220199"
+    settings.ownerPin = "000000"
 
     // Simpan pengaturan yang diperbarui
     await saveSettings(settings)
 
     return NextResponse.json({
       success: true,
-      message: "PIN berhasil diubah menjadi 220199",
+      message: "PIN berhasil diubah menjadi 000000",
     })
   } catch (error) {
     console.error("Error resetting PIN:", error)
