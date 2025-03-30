@@ -56,7 +56,7 @@ export default function SettingsClient() {
   const [pin, setPin] = useState("")
   const [pinError, setPinError] = useState(false)
   const [isAdvancedUnlocked, setIsAdvancedUnlocked] = useState(false)
-  const [correctPin, setCorrectPin] = useState("220199") // Default PIN
+  const [correctPin, setCorrectPin] = useState("000000") // Default PIN
 
   // Load settings from server on component mount
   useEffect(() => {
