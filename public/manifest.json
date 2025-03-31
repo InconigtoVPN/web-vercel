@@ -1,6 +1,6 @@
 {
-  "name": "Inconigto-MODE VPN",
-  "short_name": "Inconigto",
+  "name": "Inconigto-MODE",
+  "short_name": "Inconigto-MODE",
   "description": "VPN Configuration Generator",
   "start_url": "/",
   "display": "standalone",
